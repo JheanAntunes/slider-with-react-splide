@@ -1,4 +1,4 @@
-import Sliders from '@/utils/sliders'
+import Sliders from '@/components/utils/sliders'
 import '@splidejs/react-splide/css'
 import Link from 'next/link'
 import { SplideClient } from '../example/splider-slider-client'
@@ -19,7 +19,7 @@ function HomePageSliderBasic() {
         </Link>
       </div>
       <SplideClient
-        aria-aria-labelledby="descriptionSlider"
+        aria-labelledby="descriptionSlider"
         options={{
           type: 'loop', //carrosel infinito.
           snap: true, // ajeita o próximo sem rodar.
@@ -29,7 +29,7 @@ function HomePageSliderBasic() {
           drag: 'free', //não permite o usuario arrastar o slider mobile
           perPage: 3, // A qtd que o slider vai mostrar
           focus: 'center', // focus no elemento center
-          perMove: 3, // vai mover em quantos elementos no slider
+          perMove: 1, // vai mover em quantos elementos no slider
           gap: '1.25rem', // estilização css gap
           classes: {
             // classes adicionais.
