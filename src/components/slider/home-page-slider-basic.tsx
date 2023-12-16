@@ -2,13 +2,14 @@ import Sliders from '@/components/utils/sliders'
 import '@splidejs/react-splide/css'
 import Link from 'next/link'
 import { SplideClient } from '../example/splider-slider-client'
+import { TypographyH1 } from '../typography/tipography'
 function HomePageSliderBasic() {
   return (
     <section className="mt-5 flex flex-col gap-5">
       <div className="flex gap-2">
-        <h2 id="descriptionSlider" className="lg:text-4xl">
+        <TypographyH1 id="descriptionSlider" className="lg:text-4xl">
           Carrossel Básico na lib
-        </h2>
+        </TypographyH1>
         <Link
           href="https://splidejs.com/guides/version4/"
           target="_blank"
