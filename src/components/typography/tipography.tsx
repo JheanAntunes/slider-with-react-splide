@@ -7,3 +7,13 @@ export const TypographyH1 = ({
     {children}
   </h1>
 )
+
+export const TypographyH2 = ({
+  className,
+  children,
+  ...restProps
+}: React.ComponentProps<'h2'>) => (
+  <h2 className={className} {...restProps}>
+    {children}
+  </h2>
+)
