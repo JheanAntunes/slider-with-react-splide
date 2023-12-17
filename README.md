@@ -1,3 +1,24 @@
+# Introdução :heart_eyes:
+Lib: [splideJs](https://splidejs.com/integration/react-splide/):sunglasses:
+
+Projeto para praticar uma lib de slider porque tem uma interface que quero fazer e contém slider.
+eu conseguiria fazer com framer motion, mas é melhor procurar uma lib que foi construída para fazer slider :sweat_smile:
+
+## Aprendizado sobre a lib :nerd_face:
+- criar um slider com tsx com componentes Splide(wrapper) SplideSlider(sliderItem)
+- Styles :lipstick:
+- Acessibilidade :wheelchair:
+- Sincronizar os Splide [slider thumbnails](https://github.com/Splidejs/react-splide/blob/master/examples/src/js/components/ThumbnailsExample.tsx)
+- configurar slider com [options](https://splidejs.com/guides/options/)
+  - Responsividade :iphone:
+  - auto-scroll com a [extension](https://splidejs.com/extensions/auto-scroll/)
+  - Mais propriedades, perPage, perMove, etc... :monocle_face:
+
+melhorando [padrão-commits](https://github.com/iuricode/padroes-de-commits)
+
+## Dificuldades :skull:
+Typescript dando errror no import { Splide, SplideSlide } from '@splidejs/react-splide', encontrei a solução nessa [issue no comentário do tresorama commented on Sep 11](https://github.com/Splidejs/splide/issues/1179) 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
