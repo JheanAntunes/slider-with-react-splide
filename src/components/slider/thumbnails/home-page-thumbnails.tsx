@@ -1,7 +1,7 @@
 'use client'
+import { SplideClient } from '@/components/example/splider-slider-client'
 import { TypographyH1 } from '@/components/typography/tipography'
 import Sliders from '@/components/utils/sliders'
-import { Splide } from '@splidejs/react-splide'
 import { mainOptions, thumbsOptions } from './splide-options'
 import { useThumbnails } from './useThumbnails'
 
@@ -14,21 +14,21 @@ function HomePageThumbnails() {
         Thumbnail Slider
       </TypographyH1>
 
-      <Splide
+      <SplideClient
         options={mainOptions}
         ref={sliderMainRef}
         aria-labelledby="thumbnail-slider-example"
       >
         <Sliders />
-      </Splide>
+      </SplideClient>
 
-      <Splide
+      <SplideClient
         options={thumbsOptions}
         ref={sliderThubnailsRef}
         aria-label="The carousel with thumbnails. Selecting a thumbnail will change the main carousel"
       >
         <Sliders className="h-full" />
-      </Splide>
+      </SplideClient>
     </div>
   )
 }
