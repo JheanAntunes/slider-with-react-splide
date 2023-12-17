@@ -9,7 +9,7 @@ function HomePageThumbnails() {
   const { sliderMainRef, sliderThubnailsRef } = useThumbnails()
 
   return (
-    <div className="wrapper flex flex-col gap-5">
+    <div className="wrapper flex flex-col gap-8">
       <TypographyH1 id="thumbnail-slider-example" className="lg:text-4xl">
         Thumbnail Slider
       </TypographyH1>

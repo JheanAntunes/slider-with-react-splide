@@ -5,13 +5,13 @@ export const mainOptions: Options = {
   perPage: 2,
   perMove: 1,
   pagination: false,
-  gap: '1rem'
+  gap: '2rem'
 }
 
 export const thumbsOptions: Options = {
   type: 'slide',
   rewind: true,
-  gap: '1rem',
+  gap: '2rem',
   pagination: false,
   focus: 'center',
   fixedWidth: 120,

@@ -5,7 +5,7 @@ import { SplideClient } from '../example/splider-slider-client'
 import { TypographyH1 } from '../typography/tipography'
 function HomePageSliderBasic() {
   return (
-    <section className="mt-5 flex flex-col gap-5">
+    <section className="mt-5 flex flex-col gap-8">
       <div className="flex gap-2">
         <TypographyH1 id="descriptionSlider" className="lg:text-4xl">
           Carrossel Básico na lib
@@ -31,7 +31,7 @@ function HomePageSliderBasic() {
           perPage: 3, // A qtd que o slider vai mostrar
           focus: 'center', // focus no elemento center
           perMove: 1, // vai mover em quantos elementos no slider
-          gap: '1.25rem', // estilização css gap
+          gap: '2rem', // estilização css gap
           classes: {
             // classes adicionais.
             prev: 'splide__arrow--prev bg-blue-500 myclasses'

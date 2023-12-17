@@ -5,7 +5,7 @@ import SplideClientAutoScroll from './splide-client-auto-scroll'
 
 function HomePageSliderAutoScroll() {
   return (
-    <section className="flex flex-col gap-5">
+    <section className="flex flex-col gap-8">
       <TypographyH1 id="descriptionCarroselAutoScroll" className="lg:text-4xl">
         Exemplo de carrosel automatico
       </TypographyH1>
@@ -15,7 +15,7 @@ function HomePageSliderAutoScroll() {
           perPage: 3,
           perMove: 3,
           drag: 'free',
-          gap: '1.25rem'
+          gap: '2rem'
         }}
         aria-labelledby="descriptionCarroselAutoScroll"
       >
