@@ -1,5 +1,6 @@
 'use client'
 import { SplideClient } from '@/components/example/splider-slider-client'
+// "ts-ignore"
 import { Options, SplideProps } from '@splidejs/react-splide'
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
 import { PropsWithChildren } from 'react'
