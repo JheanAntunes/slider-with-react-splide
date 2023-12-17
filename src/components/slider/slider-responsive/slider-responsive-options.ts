@@ -1,6 +1,4 @@
-import { Options } from '@splidejs/react-splide'
-
-export const sliderResponsiveOptionsDefault: Options = {
+export const sliderResponsiveOptionsDefault = {
   mediaQuery: 'min', //mobile firts
   breakpoints: {
     1024: {
@@ -21,5 +19,3 @@ export const sliderResponsiveOptionsDefault: Options = {
   perMove: 1, // vai mover em quantos elementos no slider
   gap: '2rem'
 }
-// export const sliderResponsiveOptions = (options: Options): Options =>
-//   sliderResponsiveOptionsDefault
