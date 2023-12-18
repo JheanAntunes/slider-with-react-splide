@@ -1,7 +1,7 @@
 'use client'
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
 import { PropsWithChildren } from 'react'
-import { SplideClient } from '../splider-slider-client'
+import { SplideClient } from '../splider-client'
 function SplideClientAutoScroll({ children }: PropsWithChildren) {
   return (
     <SplideClient

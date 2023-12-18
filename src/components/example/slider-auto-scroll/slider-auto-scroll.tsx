@@ -2,7 +2,7 @@ import ImageSliderOne from '@/assets/img-1.jpg'
 import ImageSliderTwo from '@/assets/img-2.jpg'
 import ImageSliderThree from '@/assets/img-3.jpg'
 import Image from 'next/image'
-import { SpliderSliderClient } from '../splider-slider-client'
+import { SpliderSliderClient } from '../splider-client'
 import SplideClientAutoScroll from './splide-client-AutoScroll'
 function SliderAutoScroll() {
   return (

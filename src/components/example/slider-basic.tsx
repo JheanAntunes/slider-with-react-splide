@@ -3,7 +3,7 @@ import ImageSliderTwo from '@/assets/img-2.jpg'
 import ImageSliderThree from '@/assets/img-3.jpg'
 import '@splidejs/splide/css/core'
 import Image from 'next/image'
-import { SplideClient, SpliderSliderClient } from './splider-slider-client'
+import { SplideClient, SpliderSliderClient } from './splider-client'
 function SliderBasic() {
   return (
     <section className="w-full max-w-2xl">

@@ -1,7 +1,7 @@
 import Sliders from '@/components/utils/sliders'
 import '@splidejs/react-splide/css'
 import Link from 'next/link'
-import { SplideClient } from '../example/splider-slider-client'
+import { SplideClient } from '../example/splider-client'
 import { TypographyH1 } from '../typography/tipography'
 function HomePageSliderBasic() {
   return (
