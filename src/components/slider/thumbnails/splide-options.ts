@@ -11,6 +11,7 @@ export const thumbsOptions = {
   rewind: true,
   gap: '2rem',
   pagination: false,
+  focus: 'center',
   fixedWidth: 120,
   fixedHeight: 60,
   isNavigation: true
